@@ -14,7 +14,7 @@ A premium sneaker brand website designed end-to-end in **Figma** -- from low-fid
 <br/>
 
 <!-- HERO BANNER SCREENSHOT -->
-<img src="screenshots/hero.png" alt="Raydz Hero Section" width="100%" style="border-radius:12px;" />
+<img src="hero.png" alt="Raydz Hero Section" width="100%" style="border-radius:12px;" />
 
 <br/>
 
@@ -51,8 +51,8 @@ A premium sneaker brand website designed end-to-end in **Figma** -- from low-fid
 
 <div align="center">
 
-<!-- REPLACE: Take a full-page screenshot at 1440px width and save as screenshots/full-page.png -->
-<img src="screenshots/full-page.png" alt="Raydz Full Page Desktop" width="100%" style="border-radius:12px;" />
+<!-- Full-page desktop screenshot -->
+<img src="full-page.png" alt="Raydz Full Page Desktop" width="100%" style="border-radius:12px;" />
 
 </div>
 
@@ -63,31 +63,31 @@ A premium sneaker brand website designed end-to-end in **Figma** -- from low-fid
 <table>
   <tr>
     <td width="50%">
-      <img src="screenshots/hero.png" alt="Hero Section" width="100%"/>
+      <img src="hero.png" alt="Hero Section" width="100%"/>
       <p align="center"><strong>01 / Hero</strong><br/><em>Animated floating shoe with glow backdrop</em></p>
     </td>
     <td width="50%">
-      <img src="screenshots/features.png" alt="Features Section" width="100%"/>
+      <img src="features.png" alt="Features Section" width="100%"/>
       <p align="center"><strong>02 / Built Different</strong><br/><em>3-column feature cards with icons</em></p>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <img src="screenshots/collection.png" alt="Collection Grid" width="100%"/>
+      <img src="collection.png" alt="Collection Grid" width="100%"/>
       <p align="center"><strong>03 / Shop the Collection</strong><br/><em>Product grid with filter bar & size chips</em></p>
     </td>
     <td width="50%">
-      <img src="screenshots/spotlight.png" alt="Spotlight Section" width="100%"/>
+      <img src="spotlight.png" alt="Spotlight Section" width="100%"/>
       <p align="center"><strong>04 / Spotlight</strong><br/><em>Split layout product deep-dive</em></p>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <img src="screenshots/newsletter-footer.png" alt="Newsletter & Footer" width="100%"/>
+      <img src="newsletter-footer.png" alt="Newsletter & Footer" width="100%"/>
       <p align="center"><strong>05 / Newsletter & Footer</strong><br/><em>Glowing signup card + footer columns</em></p>
     </td>
     <td width="50%">
-      <img src="screenshots/mobile.png" alt="Mobile View" width="60%"/>
+      <img src="mobile.png" alt="Mobile View" width="60%"/>
       <p align="center"><strong>06 / Mobile Responsive</strong><br/><em>375px viewport, stacked layout</em></p>
     </td>
   </tr>
@@ -99,7 +99,7 @@ A premium sneaker brand website designed end-to-end in **Figma** -- from low-fid
 
 <div align="center">
 
-<img src="screenshots/product-cards.png" alt="Product Cards Detail" width="100%" style="border-radius:12px;" />
+<img src="product-cards.png" alt="Product Cards Detail" width="100%" style="border-radius:12px;" />
 
 <em>Hover states: scale + rotate shoe image, orange glow border, gradient overlay reveal</em>
 
@@ -159,8 +159,6 @@ Every section of the site was first sketched as **low-fidelity wireframes** in F
 - **Spatial rhythm** -- consistent gutters (32px), section padding (100px vertical), and card gaps (28px)
 - **Grid system** -- 12-column grid with 60px outer margins on 1440px desktop frame
 
-<!-- OPTIONAL: Add a wireframe screenshot if you have one -->
-<!-- <img src="screenshots/wireframe.png" alt="Wireframe" width="100%"/> -->
 
 ### Information Architecture
 
@@ -450,14 +448,14 @@ The translation from Figma design to production code followed a **structured han
 
 | # | Section | Preview | Description |
 |:--|:--------|:--------|:-----------|
-| 1 | **Navbar** | <img src="screenshots/hero.png" width="200"/> | Fixed glassmorphism nav with logo, links, icons, cart badge |
-| 2 | **Hero** | <img src="screenshots/hero.png" width="200"/> | Split layout -- animated headline + floating shoe with glow |
+| 1 | **Navbar** | <img src="hero.png" width="200"/> | Fixed glassmorphism nav with logo, links, icons, cart badge |
+| 2 | **Hero** | <img src="hero.png" width="200"/> | Split layout -- animated headline + floating shoe with glow |
 | 3 | **Marquee** | -- | Infinite horizontal scroll ticker with brand keywords |
-| 4 | **Features** | <img src="screenshots/features.png" width="200"/> | 3-column card grid with icons highlighting brand values |
-| 5 | **Collection** | <img src="screenshots/collection.png" width="200"/> | Filter bar + 6 interactive product cards with sizes & pricing |
-| 6 | **Spotlight** | <img src="screenshots/spotlight.png" width="200"/> | Gradient-bordered image + feature checklist deep dive |
-| 7 | **Newsletter** | <img src="screenshots/newsletter-footer.png" width="200"/> | Glowing signup card with email input and CTA |
-| 8 | **Footer** | <img src="screenshots/newsletter-footer.png" width="200"/> | 4-column layout with brand info, links, and socials |
+| 4 | **Features** | <img src="features.png" width="200"/> | 3-column card grid with icons highlighting brand values |
+| 5 | **Collection** | <img src="collection.png" width="200"/> | Filter bar + 6 interactive product cards with sizes & pricing |
+| 6 | **Spotlight** | <img src="spotlight.png" width="200"/> | Gradient-bordered image + feature checklist deep dive |
+| 7 | **Newsletter** | <img src="newsletter-footer.png" width="200"/> | Glowing signup card with email input and CTA |
+| 8 | **Footer** | <img src="newsletter-footer.png" width="200"/> | 4-column layout with brand info, links, and socials |
 
 <br/>
 
@@ -473,15 +471,15 @@ Figma **responsive variants** were created for three breakpoints, then exported 
 <table>
   <tr>
     <td align="center" width="33%">
-      <img src="screenshots/hero.png" alt="Desktop" width="100%"/>
+      <img src="hero.png" alt="Desktop" width="100%"/>
       <br/><strong>Desktop</strong><br/>1440px -- 2-column grid
     </td>
     <td align="center" width="33%">
-      <img src="screenshots/tablet.png" alt="Tablet" width="100%"/>
+      <img src="tablet.png" alt="Tablet" width="100%"/>
       <br/><strong>Tablet</strong><br/>1024px -- stacked hero
     </td>
     <td align="center" width="33%">
-      <img src="screenshots/mobile.png" alt="Mobile" width="60%"/>
+      <img src="mobile.png" alt="Mobile" width="60%"/>
       <br/><strong>Mobile</strong><br/>375px -- full-width cards
     </td>
   </tr>
@@ -509,16 +507,15 @@ raydz/
  |-- server.js                   # Local dev server (Node.js)
  |-- README.md                   # Project documentation
  |
- |-- screenshots/                # README preview images
- |     |-- hero.png              # Hero section screenshot
- |     |-- features.png          # Built Different section
- |     |-- collection.png        # Product grid section
- |     |-- product-cards.png     # Product cards close-up
- |     |-- spotlight.png         # Spotlight section
- |     |-- newsletter-footer.png # Newsletter + footer
- |     |-- full-page.png         # Full-page desktop view
- |     |-- mobile.png            # Mobile responsive view
- |     |-- tablet.png            # Tablet responsive view
+ |-- hero.png                    # Hero section screenshot
+ |-- features.png                # Built Different section
+ |-- collection.png              # Product grid section
+ |-- product-cards.png           # Product cards close-up
+ |-- spotlight.png               # Spotlight section
+ |-- newsletter-footer.png       # Newsletter + footer
+ |-- full-page.png               # Full-page desktop view
+ |-- mobile.png                  # Mobile responsive view
+ |-- tablet.png                  # Tablet responsive view
  |
  |-- Figma Etcetra/              # Exported assets from Figma
        |-- 1.webp                # Raydz Arctic (White/Beige)
@@ -550,30 +547,6 @@ node server.js
 # Open in browser
 # http://localhost:3456
 ```
-
-<br/>
-
----
-
-<br/>
-
-## 🖼 Adding Screenshots
-
-To make the images visible in this README, save your screenshots to the `screenshots/` folder with these exact names:
-
-| File Name | What to Capture |
-|:----------|:---------------|
-| `hero.png` | Hero section at 1440px (top of page) |
-| `features.png` | "Built Different" feature cards section |
-| `collection.png` | Product grid with all 6 shoe cards |
-| `product-cards.png` | Close-up of product cards (zoom into grid) |
-| `spotlight.png` | Mocha spotlight split section |
-| `newsletter-footer.png` | Newsletter card + footer |
-| `full-page.png` | Full scrolling page capture (use browser extension) |
-| `mobile.png` | Mobile view at 375px width |
-| `tablet.png` | Tablet view at 1024px width |
-
-> **Tip:** Use a browser extension like **GoFullPage** or **Awesome Screenshot** to capture the full scrolling page as a single image.
 
 <br/>
 

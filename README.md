@@ -11,6 +11,13 @@
 
 A premium sneaker brand website designed end-to-end in **Figma** -- from low-fidelity wireframes to high-fidelity prototypes -- and exported into production-ready code.
 
+<br/>
+
+<!-- HERO BANNER SCREENSHOT -->
+<img src="screenshots/hero.png" alt="Raydz Hero Section" width="100%" style="border-radius:12px;" />
+
+<br/>
+
 ---
 
 </div>
@@ -19,6 +26,7 @@ A premium sneaker brand website designed end-to-end in **Figma** -- from low-fid
 
 ## Table of Contents
 
+- [Preview](#-preview)
 - [Design Process](#-design-process)
 - [Wireframing & Information Architecture](#-wireframing--information-architecture)
 - [Design System & Tokens](#-design-system--tokens)
@@ -27,9 +35,75 @@ A premium sneaker brand website designed end-to-end in **Figma** -- from low-fid
 - [Figma to Code Export](#-figma-to-code-export)
 - [Tech Stack](#-tech-stack)
 - [Pages & Sections](#-pages--sections)
+- [Responsive Design](#-responsive-design)
 - [File Structure](#-file-structure)
 - [Getting Started](#-getting-started)
-- [Credits](#-credits)
+
+<br/>
+
+---
+
+<br/>
+
+## 👁 Preview
+
+### Desktop (1440 x 900)
+
+<div align="center">
+
+<!-- REPLACE: Take a full-page screenshot at 1440px width and save as screenshots/full-page.png -->
+<img src="screenshots/full-page.png" alt="Raydz Full Page Desktop" width="100%" style="border-radius:12px;" />
+
+</div>
+
+<br/>
+
+### Section Breakdown
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="screenshots/hero.png" alt="Hero Section" width="100%"/>
+      <p align="center"><strong>01 / Hero</strong><br/><em>Animated floating shoe with glow backdrop</em></p>
+    </td>
+    <td width="50%">
+      <img src="screenshots/features.png" alt="Features Section" width="100%"/>
+      <p align="center"><strong>02 / Built Different</strong><br/><em>3-column feature cards with icons</em></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="screenshots/collection.png" alt="Collection Grid" width="100%"/>
+      <p align="center"><strong>03 / Shop the Collection</strong><br/><em>Product grid with filter bar & size chips</em></p>
+    </td>
+    <td width="50%">
+      <img src="screenshots/spotlight.png" alt="Spotlight Section" width="100%"/>
+      <p align="center"><strong>04 / Spotlight</strong><br/><em>Split layout product deep-dive</em></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="screenshots/newsletter-footer.png" alt="Newsletter & Footer" width="100%"/>
+      <p align="center"><strong>05 / Newsletter & Footer</strong><br/><em>Glowing signup card + footer columns</em></p>
+    </td>
+    <td width="50%">
+      <img src="screenshots/mobile.png" alt="Mobile View" width="60%"/>
+      <p align="center"><strong>06 / Mobile Responsive</strong><br/><em>375px viewport, stacked layout</em></p>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+### Product Cards Close-Up
+
+<div align="center">
+
+<img src="screenshots/product-cards.png" alt="Product Cards Detail" width="100%" style="border-radius:12px;" />
+
+<em>Hover states: scale + rotate shoe image, orange glow border, gradient overlay reveal</em>
+
+</div>
 
 <br/>
 
@@ -85,6 +159,9 @@ Every section of the site was first sketched as **low-fidelity wireframes** in F
 - **Spatial rhythm** -- consistent gutters (32px), section padding (100px vertical), and card gaps (28px)
 - **Grid system** -- 12-column grid with 60px outer margins on 1440px desktop frame
 
+<!-- OPTIONAL: Add a wireframe screenshot if you have one -->
+<!-- <img src="screenshots/wireframe.png" alt="Wireframe" width="100%"/> -->
+
 ### Information Architecture
 
 ```
@@ -125,15 +202,27 @@ The entire palette was defined as **Figma color styles** and mapped to CSS custo
 
 | Token Name | Swatch | Hex | Usage |
 |:-----------|:------:|:----|:------|
-| `--bg` | ![#0a0a0a](https://img.shields.io/badge/-%23-0a0a0a?style=flat-square&color=0a0a0a) | `#0a0a0a` | Page background |
-| `--surface` | ![#141414](https://img.shields.io/badge/-%23-141414?style=flat-square&color=141414) | `#141414` | Card backgrounds |
-| `--surface2` | ![#1a1a1a](https://img.shields.io/badge/-%23-1a1a1a?style=flat-square&color=1a1a1a) | `#1a1a1a` | Elevated surfaces |
-| `--border` | ![#2a2a2a](https://img.shields.io/badge/-%23-2a2a2a?style=flat-square&color=2a2a2a) | `#2a2a2a` | Borders & dividers |
-| `--text` | ![#ffffff](https://img.shields.io/badge/-%23-ffffff?style=flat-square&color=ffffff) | `#ffffff` | Primary text |
-| `--text-secondary` | ![#888888](https://img.shields.io/badge/-%23-888888?style=flat-square&color=888888) | `#888888` | Secondary / muted text |
-| `--accent` | ![#ff5e2b](https://img.shields.io/badge/-%23-ff5e2b?style=flat-square&color=ff5e2b) | `#ff5e2b` | CTAs, badges, highlights |
-| `--accent-glow` | ![#ff5e2b](https://img.shields.io/badge/-%23-ff5e2b4d?style=flat-square&color=ff5e2b) | `rgba(255,94,43,0.3)` | Glow effects / shadows |
-| `--warm` | ![#c4956a](https://img.shields.io/badge/-%23-c4956a?style=flat-square&color=c4956a) | `#c4956a` | Warm accent tones |
+| `--bg` | ![#0a0a0a](https://img.shields.io/badge/-%20-0a0a0a?style=flat-square&color=0a0a0a) | `#0a0a0a` | Page background |
+| `--surface` | ![#141414](https://img.shields.io/badge/-%20-141414?style=flat-square&color=141414) | `#141414` | Card backgrounds |
+| `--surface2` | ![#1a1a1a](https://img.shields.io/badge/-%20-1a1a1a?style=flat-square&color=1a1a1a) | `#1a1a1a` | Elevated surfaces |
+| `--border` | ![#2a2a2a](https://img.shields.io/badge/-%20-2a2a2a?style=flat-square&color=2a2a2a) | `#2a2a2a` | Borders & dividers |
+| `--text` | ![#ffffff](https://img.shields.io/badge/-%20-ffffff?style=flat-square&color=ffffff) | `#ffffff` | Primary text |
+| `--text-secondary` | ![#888888](https://img.shields.io/badge/-%20-888888?style=flat-square&color=888888) | `#888888` | Secondary / muted text |
+| `--accent` | ![#ff5e2b](https://img.shields.io/badge/-%20-ff5e2b?style=flat-square&color=ff5e2b) | `#ff5e2b` | CTAs, badges, highlights |
+| `--accent-glow` | ![#ff5e2b](https://img.shields.io/badge/-%20-ff5e2b4d?style=flat-square&color=ff5e2b) | `rgba(255,94,43,0.3)` | Glow effects / shadows |
+| `--warm` | ![#c4956a](https://img.shields.io/badge/-%20-c4956a?style=flat-square&color=c4956a) | `#c4956a` | Warm accent tones |
+
+<br/>
+
+<div align="center">
+
+```
+  #0a0a0a    #141414    #1a1a1a    #2a2a2a    #888888    #ffffff    #ff5e2b    #c4956a
+  ███████    ███████    ███████    ███████    ███████    ███████    ███████    ███████
+   bg        surface    surface2   border     muted      text       accent     warm
+```
+
+</div>
 
 ### Typography Scale
 
@@ -359,16 +448,51 @@ The translation from Figma design to production code followed a **structured han
 
 ## 📄 Pages & Sections
 
-| # | Section | Description |
-|:--|:--------|:-----------|
-| 1 | **Navbar** | Fixed glassmorphism nav with logo, links, icons, cart badge |
-| 2 | **Hero** | Split layout -- animated headline + floating shoe with glow |
-| 3 | **Marquee** | Infinite horizontal scroll ticker with brand keywords |
-| 4 | **Features** | 3-column card grid with icons highlighting brand values |
-| 5 | **Collection** | Filter bar + 6 interactive product cards with sizes & pricing |
-| 6 | **Spotlight** | Gradient-bordered image + feature checklist deep dive |
-| 7 | **Newsletter** | Glowing signup card with email input and CTA |
-| 8 | **Footer** | 4-column layout with brand info, links, and socials |
+| # | Section | Preview | Description |
+|:--|:--------|:--------|:-----------|
+| 1 | **Navbar** | <img src="screenshots/hero.png" width="200"/> | Fixed glassmorphism nav with logo, links, icons, cart badge |
+| 2 | **Hero** | <img src="screenshots/hero.png" width="200"/> | Split layout -- animated headline + floating shoe with glow |
+| 3 | **Marquee** | -- | Infinite horizontal scroll ticker with brand keywords |
+| 4 | **Features** | <img src="screenshots/features.png" width="200"/> | 3-column card grid with icons highlighting brand values |
+| 5 | **Collection** | <img src="screenshots/collection.png" width="200"/> | Filter bar + 6 interactive product cards with sizes & pricing |
+| 6 | **Spotlight** | <img src="screenshots/spotlight.png" width="200"/> | Gradient-bordered image + feature checklist deep dive |
+| 7 | **Newsletter** | <img src="screenshots/newsletter-footer.png" width="200"/> | Glowing signup card with email input and CTA |
+| 8 | **Footer** | <img src="screenshots/newsletter-footer.png" width="200"/> | 4-column layout with brand info, links, and socials |
+
+<br/>
+
+---
+
+<br/>
+
+## 📱 Responsive Design
+
+Figma **responsive variants** were created for three breakpoints, then exported as CSS media queries.
+
+<div align="center">
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="screenshots/hero.png" alt="Desktop" width="100%"/>
+      <br/><strong>Desktop</strong><br/>1440px -- 2-column grid
+    </td>
+    <td align="center" width="33%">
+      <img src="screenshots/tablet.png" alt="Tablet" width="100%"/>
+      <br/><strong>Tablet</strong><br/>1024px -- stacked hero
+    </td>
+    <td align="center" width="33%">
+      <img src="screenshots/mobile.png" alt="Mobile" width="60%"/>
+      <br/><strong>Mobile</strong><br/>375px -- full-width cards
+    </td>
+  </tr>
+</table>
+</div>
+
+| Breakpoint | Frame Width | Layout Changes |
+|:-----------|:-----------|:---------------|
+| Desktop | 1440px | 2-column hero, 3-column product grid, 4-column footer |
+| Tablet | 1024px | Single-column hero, stacked feature cards, 2-column footer |
+| Mobile | 640px | Full-width product cards, stacked newsletter form, single-column footer |
 
 <br/>
 
@@ -380,17 +504,29 @@ The translation from Figma design to production code followed a **structured han
 
 ```
 raydz/
- |-- index.html              # Main website (single page)
- |-- server.js               # Local dev server
- |-- README.md               # This file
  |
- |-- Figma Etcetra/          # Exported assets from Figma
-       |-- 1.webp            # Raydz Arctic (White/Beige)
-       |-- 2.webp            # Raydz Mocha (Brown/Cream)
-       |-- 3.webp            # Raydz Militia (Olive/Gum)
-       |-- 5.webp            # Raydz Dune (Tan/Suede)
-       |-- 8.webp            # Raydz Shadow (Charcoal/Grey)
-       |-- 9.webp            # Raydz Phantom (Black/White)
+ |-- index.html                  # Main website (single page)
+ |-- server.js                   # Local dev server (Node.js)
+ |-- README.md                   # Project documentation
+ |
+ |-- screenshots/                # README preview images
+ |     |-- hero.png              # Hero section screenshot
+ |     |-- features.png          # Built Different section
+ |     |-- collection.png        # Product grid section
+ |     |-- product-cards.png     # Product cards close-up
+ |     |-- spotlight.png         # Spotlight section
+ |     |-- newsletter-footer.png # Newsletter + footer
+ |     |-- full-page.png         # Full-page desktop view
+ |     |-- mobile.png            # Mobile responsive view
+ |     |-- tablet.png            # Tablet responsive view
+ |
+ |-- Figma Etcetra/              # Exported assets from Figma
+       |-- 1.webp                # Raydz Arctic (White/Beige)
+       |-- 2.webp                # Raydz Mocha (Brown/Cream)
+       |-- 3.webp                # Raydz Militia (Olive/Gum)
+       |-- 5.webp                # Raydz Dune (Tan/Suede)
+       |-- 8.webp                # Raydz Shadow (Charcoal/Grey)
+       |-- 9.webp                # Raydz Phantom (Black/White)
 ```
 
 <br/>
@@ -414,6 +550,30 @@ node server.js
 # Open in browser
 # http://localhost:3456
 ```
+
+<br/>
+
+---
+
+<br/>
+
+## 🖼 Adding Screenshots
+
+To make the images visible in this README, save your screenshots to the `screenshots/` folder with these exact names:
+
+| File Name | What to Capture |
+|:----------|:---------------|
+| `hero.png` | Hero section at 1440px (top of page) |
+| `features.png` | "Built Different" feature cards section |
+| `collection.png` | Product grid with all 6 shoe cards |
+| `product-cards.png` | Close-up of product cards (zoom into grid) |
+| `spotlight.png` | Mocha spotlight split section |
+| `newsletter-footer.png` | Newsletter card + footer |
+| `full-page.png` | Full scrolling page capture (use browser extension) |
+| `mobile.png` | Mobile view at 375px width |
+| `tablet.png` | Tablet view at 1024px width |
+
+> **Tip:** Use a browser extension like **GoFullPage** or **Awesome Screenshot** to capture the full scrolling page as a single image.
 
 <br/>
 
